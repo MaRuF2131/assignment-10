@@ -1,0 +1,1 @@
+const s=t=>{const e=[];return t.length<6&&e.push("Password must be at least 6 characters long."),/[A-Z]/.test(t)||e.push("Password must include at least one uppercase letter."),/[a-z]/.test(t)||e.push("Password must include at least one lowercase letter."),{isValid:e.length===0,errors:e}};export{s as v};

@@ -1,0 +1,1 @@
+import{u as n,b as c,r as t,j as e,e as f}from"./index-9JvSthaT.js";function l({children:s}){const{user:r}=n(),a=c(),[o,u]=t.useState(!1);return t.useEffect(()=>{const i=setTimeout(()=>{u(!0)},1e3);return()=>clearTimeout(i)},[]),o?r?s:e.jsx(f,{to:"/login",state:{from:a.pathname},replace:!0}):e.jsx("div",{children:"Checking user status..."})}export{l as default};
